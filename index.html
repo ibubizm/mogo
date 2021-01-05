@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOGO</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initian-scale=1">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+	
+
+</head>
+<body>
+
+<svg style="display: none;">
+		<symbol id="facebook" viewBox="0 0 430.113 430.114">
+			<g>
+				<path d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
+        c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354
+        c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"/>
+			</g>
+		</symbol>
+
+		<symbol id="linkedin" viewBox="0 0 510 510">
+			<g>
+			<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
+			 M153,433.5H76.5V204H153V433.5z M114.75,160.65c-25.5,0-45.9-20.4-45.9-45.9s20.4-45.9,45.9-45.9s45.9,20.4,45.9,45.9
+			S140.25,160.65,114.75,160.65z M433.5,433.5H357V298.35c0-20.399-17.85-38.25-38.25-38.25s-38.25,17.851-38.25,38.25V433.5H204
+			V204h76.5v30.6c12.75-20.4,40.8-35.7,63.75-35.7c48.45,0,89.25,40.8,89.25,89.25V433.5z"/>
+			</g> 
+		</symbol>
+		<symbol id="twitter" viewBox="0 0 512 512">
+			<g>
+		<path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+			c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+			c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+			c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+			c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+			c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+			C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+			C480.224,136.96,497.728,118.496,512,97.248z"/>
+	</g>
+		</symbol>
+	</svg>
+
+<header class="header">
+	<div class="container">
+		<div class="header__items">
+			<div class="header__logo" id="intro">MoGo</div>
+			<nav class="header__menu">
+				<a href="#about" class="header__link" data-scroll="#about">about</a>
+				<a href="#service" class="header__link" data-scroll="#service">service</a>
+				<a href="#work" class="header__link" data-scroll="#work">work</a>
+				<a href="#blog" class="header__link" data-scroll="#blog">blog</a>
+				<a href="#contact" class="header__link" data-scroll="#contact">contact</a>
+			</nav>
+
+		
+			<button type="button" class="nav__toggle ">
+				<span class="nav__toggle__item"></span>
+			</button>
+		</div>
+	</div>
+</header>
+<div class="intro">
+	<div class="container">
+		<div class="intro__inner">
+			<div class="subtitle">Creative Template</div>
+			<h1 class="title">welcome to mogo</h1>
+
+			<a href="#" class="btn">Learn More</a>
+		</div>
+		<div class="slider">
+			<div class="slider__item">
+				<span class="slider__num">01</span>
+				intro
+			</div>
+			<div class="slider__item">
+				<span class="slider__num">02</span>
+				work
+			</div>
+			<div class="slider__item">
+				<span class="slider__num">03</span>
+				about
+			</div>
+			<div class="slider__item">
+				<span class="slider__num">03</span>
+				contacts
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="section" id="about">
+	<div class="container">
+		<div class="inner__section">
+			<div class="section__subtitle">What we do</div>
+			<div class="section__title">Story about us</div>
+			<div class="section__text">Игры оказались довольно скверными, но Link: The Faces of Evil и Zelda: The Wand of Gamelon спустя пару десятков лет обрели своеобразную популярность: кат-сцены там были настолько отбитыми, что они превратились в мемы.</div>
+			<div class="about" >
+				<div class="about__items">
+					<div class="about__inner">
+						<div class="about__img">
+							<img class="about__photo" src="about/1.jpg">
+						</div>
+						<div class="about__text">super team</div>
+					</div>
+				</div>
+				<div class="about__items">
+					<div class="about__inner">
+						<div class="about__img">
+							<img class="about__photo" src="about/2.jpg">
+						</div>
+						<div class="about__text">jopa</div>
+					</div>
+				</div>
+				<div class="about__items">
+					<div class="about__inner">
+						<div class="about__img">
+							<img class="about__photo" src="about/3.jpg">
+						</div>
+						<div class="about__text">kaktus</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="statistics">
+	<div class="container">
+		<div class="stats">
+			<div class="stats__item">
+				<div class="stats__int">42</div>
+				<div class="stats__name">web desing progrct</div>
+			</div>
+			<div class="stats__item">
+				<h1 class="stats__int">123</h1>
+				<div class="stats__name">happy client</div>
+			</div>
+			<div class="stats__item">
+				<h1 class="stats__int">15</h1>
+				<div class="stats__name">award winner</div>
+			</div>
+			<div class="stats__item">
+				<h1 class="stats__int">99</h1>
+				<div class="stats__name">cup of coffee</div>
+			</div>
+			<div class="stats__item">
+				<h1 class="stats__int">24</h1>
+				<div class="stats__name">members</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="section" id="service"><!-- services -->
+	<div class="container">
+		<div class="inner__section">
+			<div class="section__subtitle">We work with</div>
+			<div class="section__title">amazing services</div>
+			<div class="services__items">
+				<div class="servic__item">
+					<div class="servic__icon">
+						<img src="services/1.png">
+					</div>
+					<div class="servic__title">photography</div>
+					<div class="servic__text">В ремастерах используются ассеты из оригиналов, но, так как игры теперь работают</div>
+				</div>
+				<div class="servic__item">
+					<div class="servic__icon">
+						<img src="services/2.png">
+					</div>
+					<div class="servic__title">web design</div>
+					<div class="servic__text">В ремастерах используются ассеты из оригиналов, но, так как игры теперь работают</div>
+				</div>
+				<div class="servic__item">
+					<div class="servic__icon">
+						<img src="services/3.png">
+					</div>
+					<div class="servic__title">creativity</div>
+					<div class="servic__text">В ремастерах используются ассеты из оригиналов, но, так как игры теперь работают</div>
+				</div>
+
+				<div class="servic__item">
+					<div class="servic__icon">
+						<img src="services/4.png">
+					</div>
+					<div class="servic__title">seo</div>
+					<div class="servic__text">В ремастерах используются ассеты из оригиналов, но, так как игры теперь работают</div>
+				</div>
+				<div class="servic__item">
+					<div class="servic__icon">
+						<img src="services/5.png">
+					</div>
+					<div class="servic__title">html/css</div>
+					<div class="servic__text">В ремастерах используются ассеты из оригиналов, но, так как игры теперь работают</div>
+				</div>
+				<div class="servic__item">
+					<div class="servic__icon">
+						<img src="services/6.png">
+					</div>
+					<div class="servic__title">digital</div>
+					<div class="servic__text">В ремастерах используются ассеты из оригиналов, но, так как игры теперь работают</div>
+				</div>
+			</div>
+			<!-- <hr>
+			<div class="services__items">
+				
+			</div> -->
+		</div>
+	</div>
+</section>
+
+<section class="section design"><!-- design -->
+	<div class="container">
+		<div class="inner__section">
+			<div class="section__subtitle">for all device</div>
+			<div class="section__title">unique design</div>
+			<div class="idevice">
+				<img class="apple" src="design/ipad.png">
+				<img class="apple apple-iphone" src="design/iphone.png"></img>
+			</div>
+	</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+			<div class="inner__section">
+			<div class="section__subtitle">for all device</div>
+			<div class="section__title">unique design</div>
+			<div class="section__text">Как вы там, не наигрались ещё в «Успей купить видеокарту нового поколения за одну наносекунду»? Сегодня NVIDIA запускает следующий раунд, да ещё и в народном сегменте — в продажу отправляется GeForce RTX 3060 Ti.</div>
+			<div class="wedo">
+				<div class="wedo__items">
+					<img class="wedo__img" src="wedo.jpg">
+				</div>
+				<div class="wedo__items">
+					<div class="bayan">
+						<div class="bayan__items">
+							<div class="bayan__header">
+								<img class="bayan__icon" src="services/3.png">
+								<div class="bayan__title">photography</div>
+							</div>
+							<div class="bayan__text"><p>Видеокарта поддерживает трассировку лучей (ну, вдруг вы сомневались!) и развивает «триединство игровых инноваций GeForce» — DLSS, NVIDIA Reflex и NVIDIA Broadcast. Как утверждает NVIDIA, по</p></div>
+						</div>
+						<div class="bayan__items">
+							<div class="bayan__header">
+								<img class="bayan__icon" src="services/4.png">
+								<div class="bayan__title">crearuvity</div>
+							</div>
+							<div class="bayan__text"><p>Видеокарта поддерживает трассировку лучей (ну, вдруг вы сомневались!) и развивает «триединство игровых инноваций GeForce» — DLSS, NVIDIA Reflex и NVIDIA Broadcast. Как утверждает NVIDIA, по</p></div>
+						</div>
+						<div class="bayan__items">
+							<div class="bayan__header">
+								<img class="bayan__icon" src="services/6.png">
+								<div class="bayan__title">web design</div>
+							</div>
+							<div class="bayan__text"><p>Видеокарта поддерживает трассировку лучей (ну, вдруг вы сомневались!) и развивает «триединство игровых инноваций GeForce» — DLSS, NVIDIA Reflex и NVIDIA Broadcast. Как утверждает NVIDIA, по</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section section--gray">
+	<div class="container">
+		<div class="reviews">
+			<div class="one-time" data-slider>
+				<div class="reviews__item">
+					<img class="reviews__photo" src="http://placehold.it/145x145">
+					<div class="reviews__text">В первых обзорах видеокарту тоже хвалят: мол, она превосходно подходит для гейминга в разрешении 1440p и предлагает прекрасный баланс между ценой и качеством, благодаря чему станет отличной основой для более-менее бюджетных PC (ну, если закрыть глаза на бессердечность текущего курса).</div>
+					<div class="reviews__name">Jon Doe</div>
+				</div>
+
+				<div class="reviews__item">
+					<img class="reviews__photo" src="http://placehold.it/145x145">
+					<div class="reviews__text">В первых обзорах видеокарту тоже хвалят: мол, она превосходно подходит для гейминга в разрешении 1440p и предлагает прекрасный баланс между ценой и качеством, благодаря чему станет отличной основой для более-менее бюджетных PC (ну, если закрыть глаза на бессердечность текущего курса).</div>
+					<div class="reviews__name">Jon Doe</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<div class="inner__section">
+			<div class="section__subtitle">Who we are</div>
+			<div class="section__title">meet our team</div>
+			<div class="section__text">Российские цены на RTX 3060 Ti начинаются от 39 990 рублей, украинские — от 14 990 гривен. Сегодня в продаже должны появиться модели от разных поставщиков, включая ASUS, EVGA, Galaxy, Gigabyte</div>
+		</div>
+		<div class="about">
+				<div class="about__items">
+					<div class="about__inner">
+						<div class="about__img">
+							<img class="team__img" src="team/1.jpg">
+						</div>
+						<div class="about__text soc">
+							<div class="social">
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#facebook'></use>
+								</svg></a>
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#twitter'></use>
+								</svg></a>
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#linkedin'></use>
+								</svg></a>
+							</div>
+						</div>
+					</div>
+						<div class="about__name">Matthew Dix</div>
+						<div class="about__prof">Graphic Design</div>
+				</div>
+				<div class="about__items">
+					<div class="about__inner">
+						<div class="about__img">
+							<img class="team__img" src="team/2.jpg">
+						</div>
+						<div class="about__text">
+							<div class="about__text soc">
+							<div class="social">
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#facebook'></use>
+								</svg></a>
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#twitter'></use>
+								</svg></a>
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#linkedin'></use>
+								</svg></a>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="about__name">Christopher campbell</div>
+					<div class="about__prof">Branding/UX design</div>
+				</div>
+				<div class="about__items">
+					<div class="about__inner">
+						<div class="about__img">
+							<img class="team__img" src="team/3.jpg">
+						</div>
+						<div class="about__text">
+							<div class="about__text soc">
+							<div class="social">
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#facebook'></use>
+								</svg></a>
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#twitter'></use>
+								</svg></a>
+								<a href="#"><svg class="social__icon">
+									<use xlink:href='#linkedin'></use>
+								</svg></a>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="about__name">Michel Fertig</div>
+					<div class="about__prof">Developer</div>
+				</div>
+			</div>
+	</div>
+</section>
+
+<section class="section">
+<div class="section--gray">
+	<div class="container">
+		<div class="brands">
+			<div class="brand">
+				<img class="brand__logo" src="logos/1.png">
+			</div>
+			<div class="brand">
+				<img class="brand__logo" src="logos/2.png">
+			</div>
+			<div class="brand">
+				<img class="brand__logo" src="logos/3.png">
+			</div>
+			<div class="brand">
+				<img class="brand__logo" src="logos/4.png">
+			</div>
+			<div class="brand">
+				<img class="brand__logo" src="logos/5.png">
+			</div>
+			<div class="brand">
+				<img class="brand__logo" src="logos/6.png">
+			</div>
+
+		</div>
+	</div>
+</div>
+</section>
+
+<section class="section" id="work">
+	<div class="container">
+		<div class="inner__section">
+			<div class="section__subtitle">What we do</div>
+			<div class="section__title">some of our work</div>
+			<div class="section__text">Как вы там, не наигрались ещё в «Успей купить видеокарту нового поколения за одну наносекунду»? Сегодня NVIDIA запускает следующий раунд</div>
+		</div>
+	</div>
+	<div class="works">
+		<div class="works__col">
+			<div class="works__item">
+				<img class="works__img" src="works/1.jpg">
+				<div class="works__info">
+					<div class="works__icon"></div>
+					<div class="works__title">creatively designed</div>
+					<div class="works__text">Lorem ipsum dolar sit</div>
+				</div>
+			</div>
+			<div class="works__item">
+				<img class="works__img" src="works/2.jpg">
+				<div class="works__info">
+					<div class="works__icon"></div>
+					<div class="works__title">creatively designed</div>
+					<div class="works__text">Lorem ipsum dolar sit</div>
+				</div>
+			</div>
+		</div>
+		<div class="works__col">
+			<div class="works__item">
+				<img class="works__img" src="works/3.jpg">
+				<div class="works__info">
+					<div class="works__icon"></div>
+					<div class="works__title">creatively designed</div>
+					<div class="works__text">Lorem ipsum dolar sit</div>
+				</div>
+			</div>
+			<div class="works__item">
+				<img class="works__img" src="works/4.jpg">
+				<div class="works__info">
+					<div class="works__icon"></div>
+					<div class="works__title">creatively designed</div>
+					<div class="works__text">Lorem ipsum dolar sit</div>
+				</div>
+			</div>
+		</div>
+		<div class="works__col">
+			<div class="works__item">
+				<img class="works__img" src="works/5.jpg">
+				<div class="works__info">
+					<div class="works__icon"></div>
+					<div class="works__title">creatively designed</div>
+					<div class="works__text">Lorem ipsum dolar sit</div>
+				</div>
+			</div>
+		</div>
+		<div class="works__col">
+			<div class="works__item">
+				<img class="works__img" src="works/6.jpg">
+				<div class="works__info">
+					<div class="works__icon"></div>
+					<div class="works__title">creatively designed</div>
+					<div class="works__text">Lorem ipsum dolar sit</div>
+				</div>
+			</div>
+			<div class="works__item">
+				<img class="works__img" src="works/7.jpg">
+				<div class="works__info">
+					<div class="works__icon"></div>
+					<div class="works__title">creatively designed</div>
+					<div class="works__text">Lorem ipsum dolar sit</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<div class="reviews">
+			<div class="one-time">
+				<div class="reviews__item">
+					<img class="reviews__photo reviews__photo--down" src="avatar.png">
+					<div class="reviews__text">В первых обзорах видеокарту тоже хвалят: мол, она превосходно подходит для гейминга в разрешении 1440p и предлагает прекрасный баланс между ценой и качеством, благодаря чему станет отличной основой для более-менее бюджетных PC (ну, если закрыть глаза на бессердечность текущего курса).</div>
+					<div class="reviews__name">Jon Doe</div>
+				</div>
+				<div class="reviews__item">
+					<img class="reviews__photo reviews__photo--down" src="avatar.png">
+					<div class="reviews__text">В первых обзорах видеокарту тоже хвалят: мол, она превосходно подходит для гейминга в разрешении 1440p и предлагает прекрасный баланс между ценой и качеством, благодаря чему станет отличной основой для более-менее бюджетных PC (ну, если закрыть глаза на бессердечность текущего курса).</div>
+					<div class="reviews__name">Jon Doe</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section client">
+	<div class="container">
+		<div class="inner__section">
+			<div class="section__subtitle">Happy clients</div>
+			<div class="section__title">What people say</div>
+		</div>
+		<div class="clients">
+			<div class="inner__clients">
+				<div class="client__item">
+					<img class="client__photo" src="clients/1.png"></img>
+					<div class="client__info">
+						<div class="client__name">matthew dix</div>	
+						<div class="client__prof">Graphih Design</div>
+						<div class="client__text">Кратос прибыл в Fortnite на всех платформах</div>
+					</div>
+				</div>
+				<div class="client__item">
+					<img class="client__photo" src="clients/2.png"></img>
+					<div class="client__info">
+						<div class="client__name">nick dowson</div>	
+						<div class="client__prof">Graphih Design</div>
+						<div class="client__text">Кратос прибыл в Fortnite на всех платформах</div>
+					</div>
+				</div>
+				<div class="client__item">
+					<img class="client__photo" src="clients/3.png"></img>
+					<div class="client__info">
+						<div class="client__name">matthew parry</div>	
+						<div class="client__prof">Graphih Design</div>
+						<div class="client__text">Кратос прибыл в Fortnite на всех платформах</div>
+					</div>
+				</div>
+				<div class="client__item">
+					<img class="client__photo" src="clients/4.png"></img>
+					<div class="client__info">
+						<div class="client__name">orlando blum</div>	
+						<div class="client__prof">Graphih Design</div>
+						<div class="client__text">Кратос прибыл в Fortnite на всех платформах</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section" id="blog">
+	<div class="container">
+		<div class="inner__section">
+			<div class="section__subtitle">Our stories</div>
+			<div class="section__title">Latest blog</div>
+		</div>
+		<div class="blog">
+			<div class="blog__items">
+				<div class="blog__photo">
+					<img class="blog__img" src="blog/1.jpg"></img>
+					<div class="blog__date">
+						<div class="day">15</div>
+						<div class="month">Jan</div>
+					</div>
+				</div>
+				<div class="blog__title">loren ipsum sit ament</div>
+				<div class="blog__text">Atlus пыталась втихую подготовить публикацию западного трейлера Persona 5 Strikers на YouTube, но нажала какие-то не такие кнопки</div>
+			</div>
+			<div class="blog__items">
+				<div class="blog__photo">
+					<img class="blog__img" src="blog/2.jpg"></img>
+					<div class="blog__date">
+						<div class="day">14</div>
+						<div class="month">Jan</div>
+					</div>
+				</div>
+				<div class="blog__title">sed do tempor</div>
+				<div class="blog__text">Atlus пыталась втихую подготовить публикацию западного трейлера Persona 5 Strikers на YouTube, но нажала какие-то не такие кнопки</div>
+			</div>
+			<div class="blog__items">
+				<div class="blog__photo">
+					<img class="blog__img" src="blog/3.jpg"></img>
+					<div class="blog__date">
+						<div class="day">12</div>
+						<div class="month">Jan</div>
+					</div>
+				</div>
+				<div class="blog__title">labore et dolore</div>
+				<div class="blog__text">Atlus пыталась втихую подготовить публикацию западного трейлера Persona 5 Strikers на YouTube, но нажала какие-то не такие кнопки</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="section map">
+	<div class="container">
+		<div class="map__content">
+			<div class="map__title">
+				<a class="map__link" href="https://goo.gl/maps/dqsEHiva43SX3tmN8" target="_blank">open map</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer" id="contact">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="footer__items">
+				<div class="footer__mogo">
+					<div class="mogo__title"><h1>MoGo</h1></div>
+					<div class="mogo__text">В Японии Persona 5 Strikers (там она называется Persona 5 Scramble: The Phantom Strikers) вышла ещё 20 февраля 2020-го, но только на PlayStation 4 и Nintendo Switch. Западный релиз к этим двум платформам добавляет ещё одну</div>
+					<div class="mogo__folowers"><span class="subscribe">15k</span> folowers</div>
+					<div class="input">
+						<input class="inp" type="text" placeholder=" Your Email">
+						<button class="footer__btn">subscribe</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer__items sec">
+				<div class="fb__title ">blogs</div>
+				<div class="blogs">
+					<div class="fb__item">
+						<img class="fb__photo" src="http://placehold.it/120x80"></img>
+						<div class="fb__info">
+							<div class="fb__text">loriem Ipsum dolar sit amet consectetur adipiscing</div>
+							<div class="fb__date">Jan 8, 2020</div>
+						</div>
+					</div>
+					<div class="fb__item">
+						<img class="fb__photo" src="http://placehold.it/120x80"></img>
+						<div class="fb__info">
+							<div class="fb__text">loriem Ipsum dolar sit amet consectetur adipiscing</div>
+							<div class="fb__date">Jan 8, 2020</div>
+						</div>
+					</div>
+					<div class="fb__item">
+						<img class="fb__photo" src="http://placehold.it/120x80"></img>
+						<div class="fb__info">
+							<div class="fb__text">loriem Ipsum dolar sit amet consectetur adipiscing</div>
+							<div class="fb__date">Jan 8, 2020</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="footer__items sec">
+				<div class="fb__title">instagram</div>
+				<div class="instagram">
+					<img class="insta__photo" src="instagram/1.jpg">
+					<img class="insta__photo" src="instagram/2.jpg">
+					<img class="insta__photo" src="instagram/3.jpg">
+					<img class="insta__photo" src="instagram/4.jpg">
+					<img class="insta__photo" src="instagram/5.jpg">
+					<img class="insta__photo" src="instagram/6.jpg">
+					<img class="insta__photo" src="instagram/7.jpg">
+					<img class="insta__photo" src="instagram/8.jpg">
+					<img class="insta__photo" src="instagram/9.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>	
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+</body>
+</html>
